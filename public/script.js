@@ -7,7 +7,9 @@ const submitBtn = document.getElementById('submitBtn');
 const cancelBtn = document.getElementById('cancelBtn');
 const userTableBody = document.querySelector('#userTable tbody');
 
-const API_URL = 'http://localhost:3000/users';
+// Gunakan path relatif agar mengikuti origin server
+const API_URL = window.location.origin + '/users';
+
 
 // Fungsi untuk memuat semua user
 async function loadUsers() {
