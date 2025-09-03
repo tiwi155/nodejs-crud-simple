@@ -31,10 +31,11 @@ npm start
 ```
 
 Kemudian perhatikan alamat server running di mana, misalnya:
-```bash
+
 Server berjalan di http://localhost:3000
-```
-Maka cara mengaksesnya menggunakn browser di alamat ini:
+
+
+Maka cara mengaksesnya menggunakan browser di alamat ini:
 ```bash
 http://localhost:3000
 ```
