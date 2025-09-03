@@ -23,18 +23,21 @@ DB_NAME=testdb
 PORT=3000
 ```
 
-## Menjalankan aplikasi
+## Menjalankan Aplikasi
 untuk menjalankan aplikasi ini
 ```bash
 npm install
 npm start
 ```
 
-kemudian akses di alamat yang muncul misalnya
+Kemudian perhatikan alamat server running di mana, misalnya:
 ```bash
 Server berjalan di http://localhost:3000
 ```
-
+Maka cara mengaksesnya menggunakn browser di alamat ini:
+```bash
+http://localhost:3000
+```
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
