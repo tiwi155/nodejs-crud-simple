@@ -2,10 +2,8 @@
 
 Project ini merupakan implementasi sederhana dari aplikasi CRUD (Create, Read, Update, Delete) menggunakan **Node.js** dengan koneksi ke **MySQL**.
 
-## Installation
-
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
+## Database
+Buat database misal dengan nama testdb dan buat tabel user dengan struktur berikut ini:
 ```bash
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
