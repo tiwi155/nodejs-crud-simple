@@ -23,6 +23,18 @@ DB_NAME=testdb
 PORT=3000
 ```
 
+## Menjalankan aplikasi
+untuk menjalankan aplikasi ini
+```bash
+npm install
+npm start
+```
+
+kemudian akses di alamat yang muncul misalnya
+```bash
+Server berjalan di http://localhost:3000
+```
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
